@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>salom</title>
+    <link href="resources/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center text-primary">About course!</h1>
+    <small class="text-info">In this course we have learnt:</small>
+    <small class="text-success">CSS,</small>
+    <small class="text-primary">HTML,</small>
+    <small class="text-warning text-capitalize">twitter bootstrap!</small>
+</div>
+</body>
+</html>
