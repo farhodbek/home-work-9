@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>assignment-4</title>
+    <link href="resources/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1 class="text-center">Plants List</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <img src="resources/images/mercury.jpg">
+            </td>
+            <td>
+                Mercury
+            </td>
+            <td>
+                <button type="button" class="btn btn-success">Edit</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="resources/images/jupiter.jpg">
+            </td>
+            <td>
+                Jupiter
+            </td>
+            <td>
+                <button type="button" class="btn btn-success">Edit</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="resources/images/earth.jpg">
+            </td>
+            <td>
+                Earth
+            </td>
+            <td>
+                <button type="button" class="btn btn-success">Edit</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="resources/images/pluto.jpg">
+            </td>
+            <td>
+                Pluto
+            </td>
+            <td>
+                <button type="button" class="btn btn-success">Edit</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
