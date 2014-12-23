@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>assignment-hw</title>
+    <link href="resources/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <br>
+    <button type="button" class="btn btn-success">
+        <span class="glyphicon glyphicon-plus"></span>
+        Add random item
+    </button>
+    <input type="search" class="form-control" placeholder="global search" style="position: relative; top: 73px">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>birth date</th>
+            <th>balance</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>
+                <strong>.</strong>
+            </th>
+        </tr>
+        <tr>
+           <td>Blandine</td>
+           <td>Frere</td>
+           <td>08.02.1995</td>
+           <td>1691</td>
+           <td>
+               <button type="button" class="btn btn-danger">
+                   <span class="glyphicon glyphicon-remove-circle"></span>
+               </button>
+           </td>
+        </tr>
+        <tr>
+            <td>Blandine</td>
+            <td>Faivre</td>
+            <td>28.05.1993</td>
+            <td>660</td>
+            <td>
+                <button type="button" class="btn btn-danger">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>Laurent</td>
+            <td>renard</td>
+            <td>15.03.1991</td>
+            <td>596</td>
+            <td>
+                <button type="button" class="btn btn-danger">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>Oliver</td>
+            <td>Faivre</td>
+            <td>24.06.1990</td>
+            <td>1704</td>
+            <td>
+                <button type="button" class="btn btn-danger">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                </button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="text-center">
+    <button type="button" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        Improve the documentation
+    </button>
+        </div>
+</div>
+</body>
+</html>
