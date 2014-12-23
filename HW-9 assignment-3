@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>assignment-3</title>
+    <link href="resources/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container text-center">
+    <h1 class="text-center text-success">Plants List</h1>
+    <div class="row">
+        <div class="col-xs-6">
+            <h3>Mercury</h3>
+            <img src="resources/images/mercury.jpg">
+        </div>
+        <div class="col-xs-6">
+            <h3>Jupiter</h3>
+            <img src="resources/images/jupiter.jpg">
+        </div>
+        </div>
+    <div class="row">
+        <div class="col-xs-6">
+            <h3>Earth</h3>
+            <img src="resources/images/earth.jpg">
+        </div>
+        <div class="col-xs-6">
+            <h3>Pluto</h3>
+            <img src="resources/images/pluto.jpg">
+        </div>
+             
+    </div>
+</div>
+</body>
+</html>
